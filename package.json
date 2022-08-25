@@ -1,0 +1,44 @@
+{
+  "name": "m93-CKl",
+  "version": "1.0.0",
+  "description": "emb ~ for the new game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --expose-gc --optimize_for_size --max_old_space_size=460 --gc_interval=100 main.js"
+  },
+  "engines": {
+    "node": "8.2.1"
+  },
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "dblapi.js": "^2.4.1",
+    "discord.js": "^11.4.2",
+    "enmap": "^0.4.6",
+    "enmap-rethink": "^2.1.2",
+    "express": "^4.16.4",
+    "g-i-s": "^2.1.2",
+    "google": "^2.1.0",
+    "google-images": "^2.1.0",
+    "google-searcher": "^1.0.0",
+    "http": "0.0.0",
+    "image-recognition": "^1.1.0",
+    "image-to-text": "^1.0.8",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "noblox.js": "^4.1.4",
+    "ordinal-js": "^1.1.0",
+    "query-string": "^5.1.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "rivescript": "^2.0.0-beta.1",
+    "roblox-js": "^4.0.4",
+    "snekfetch": "^3.6.4",
+    "tunnel-agent": "^0.6.0",
+    "validator": "^9.4.1"
+  }
+}
